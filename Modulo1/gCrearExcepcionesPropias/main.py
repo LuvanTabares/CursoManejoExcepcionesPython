@@ -2,7 +2,7 @@ class UsernameException(Exception):
 
     def __init__(self, username):
         self.username = username
-        self.message = f'El usernmae "{self.username}" no cumple con los requerimientos'
+        self.message = f'El username "{self.username}" no cumple con los requerimientos'
 
         super().__init__(self.message)
 
