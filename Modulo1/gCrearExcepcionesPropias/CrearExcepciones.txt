@@ -1,0 +1,7 @@
+Para crear nuestra propias excepciones creamos un class 
+
+class UsernameException(Exception):  ----> Nuestro error heredará de la class Exception
+
+se define el init, se debe llamar al init de la clase padre usando super().__init__(self.message)
+
+self.message será el mensaje que queremos arrojar, que deberá ser inicializado como self.message = 'El mensaje que quiero mostrar'
