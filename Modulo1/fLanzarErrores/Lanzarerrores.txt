@@ -1,0 +1,10 @@
+Definiremos una función que valide un username
+
+si la longitud del username es menor o igual a 5 queremos que arroje un error
+
+para lanzar el error se debe usar raise Exception('Aquí ponemos un mensaje que queramos mostrar')
+
+colocar el código que genera error en try y en except un mensaje de error
+
+colocar Exception as error para mostrar con más detalle el error
+
