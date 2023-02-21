@@ -1,0 +1,23 @@
+Siempre que ocurra un problema python ejecutará un mecanismo que lanzará una excepción, si no manejamos correctamente dicha excepción
+el programa finalizará de forma abrupta
+
+Abriremos vs code y se creará un código que arroje una excepción
+
+Se creará el archivo principal main.python
+
+Trabajaremos con ZeroDivisionError
+
+Se declaran ambas variables y se dividen
+
+Al ejecutar el código el programa se interrumpirá en la línea que tenga el ZeroDivisionError, prints posteriores no serán ejecutados
+
+Para manejar las excepciones trabajaremos con dos bloques, try y except
+
+Colocaremos el código que pueda generar errores en try
+
+En el bloque except se ejecutará lo que deseemos mostrar, como un print
+
+Lo recomendado es indicar con que tipo de error se va a trabajar y colocar el error en el bloque except
+
+----> except ZeroDivisionError as error:
+

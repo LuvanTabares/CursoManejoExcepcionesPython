@@ -1,0 +1,11 @@
+Si se desea ejecutar algo general podemos llamar a Exception
+
+En python todas las excepciones heredan de la clase Exception
+
+except Exception as error:
+    #Ahora el mensaje debe ser mucho más general
+    print(error)
+
+Se recomienda mostrar el error para entender cuál es el error
+
+Exception no es la clase padre principal, ésta hereda de BaseException, lo ideal es trabajar con Exception

@@ -1,0 +1,8 @@
+En el bloque try se puede colar código que arrojen múltiples errores
+
+Para agregar un nuevo error se agrega un nuevo except, si se ejecuta el código pasará al else y finally será lo último a ejecutar
+
+Con esto se pueden personalizar los mensajes de error por cada tipo de error
+
+ZeroDivisionError, NameError, IndexError, etc
+
