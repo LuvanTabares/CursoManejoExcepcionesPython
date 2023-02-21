@@ -1,1 +1,7 @@
-Hola
+Se aprenderán las diferentes formas de trabajar y manipular los errores que pueden ocurrir en las aplicaciones con python
+
+Con la finalidad de construir aplicaciones más robustas y profesionales
+
+Para tomar el taller se debe conocer de python, ciclos, condiciones, funciones y clases
+
+Se trabajará con python 3.11 ya que en estas versiones se han agregado nuevas funcionalidades
