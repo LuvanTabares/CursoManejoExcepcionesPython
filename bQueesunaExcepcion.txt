@@ -1,0 +1,16 @@
+Cuando python detecta un error se activa una excepción, si no se maneja de forma correcta se interrumpirá el programa
+
+Para poder manejar las expeciones se usa try y except
+
+En try se coloca el código que pueda generar un error, los errores van desde sintaxis, indentación, importar módulos, 
+leer archivos, declarar variables, memoria, etc
+
+Estos errores responden a una jerarquía, clase padre BaseException
+
+Se pueden manejar de forma individual o en grupo
+
+En el except se define que hacer cuando una excepción se presente
+
+Todos los errores son excepciones pero no todas las excepciones son errores
+
+Podemos crear y lanzar nuestras propias excepciones
