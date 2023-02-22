@@ -1,0 +1,16 @@
+A partir de la 3.11 se pueden agregar notas como en una función, se pueden dejar más pistas sobre el error
+
+definir una clase heredando de Exception, definir init con super() y su mensaje
+
+definir una función que valide un username
+
+para agregar una nota se crea un objeto username_error = UsernameException() y este objeo se le agrega .add_note('nota que se desea')
+
+para conocer si una excepción posee notas se usa .__notes__
+
+no es recomendado usar directamente __notes__, es mejor generar un nuevo método que use __notes__
+
+en un bloque except se puede imprimir el error de la clase y sus notas, para esto crear otro método que itere en las nota dentro de notas
+
+no usar imprimir ya que si no hay nota imprime None, usar error.show_notes()  error ---> UsernameException; show_notes ----> método 
+que itera en las notas
