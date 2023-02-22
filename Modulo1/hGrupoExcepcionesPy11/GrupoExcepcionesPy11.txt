@@ -1,2 +1,15 @@
-A partir de la versión 3.11 se pueden lanzar múltiples excepciones
+A partir de la versión 3.11 se pueden lanzar múltiples excepciones como grupo
+
+Se debe crear una class por cada error, puede ser en un documento externo py
+
+Cada error debe heredar de Exception
+
+Luego importar dichos errores con from .... import ...., ....
+
+Para lanzar el grupo de excepciones se usa raise con ExceptionGroup, se asigan una descripción entre ' ' y en la lista los errores
+que se desean lanzar
+
+Se pueden usar errores ya predeterminados de Python o propios
+
+Se pueden usar try y except, en except podemos llamar el grupo o cada error individual con * (desempaqueta los errores del grupo)
 
